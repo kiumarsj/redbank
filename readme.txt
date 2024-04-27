@@ -46,3 +46,24 @@ Test the Configuration: Ensure that RDP connections are only successful when ini
 
 By following these steps, you can restrict RDP access to your instances in AWS to only be accessible through the RDP Gateway.
 
+
+To add an Active Directory Connector to your AWS Managed AD, you can follow these general steps:
+
+Access AWS Directory Service Console: Log in to your AWS Management Console and navigate to the Directory Service dashboard.
+
+Select your Directory: Choose the AWS Managed Microsoft AD directory to which you want to add the Active Directory Connector.
+
+Choose "Connect to AD Connector": Look for an option similar to this on the directory details page.
+
+Configure AD Connector Settings: Provide the necessary information, such as the DNS name of your AD Connector, the service account username and password, and the IP address range to allow access to the connector.
+
+Review and Confirm: Double-check all the settings you've provided to ensure they're correct.
+
+Create AD Connector: Once everything looks good, proceed to create the AD Connector.
+
+Update DNS Settings: After the AD Connector is created, you'll typically need to update the DNS settings in your on-premises environment to point to the DNS name of the connector.
+
+Test Connectivity: Verify that the connection between your on-premises environment and AWS Managed AD is working as expected.
+
+By following these steps, you should be able to successfully add an Active Directory Connector to your AWS Managed AD.
+
